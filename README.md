@@ -4,8 +4,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![MIT License][license-shield]][LICENSE.txt]
 
 <br />
 <div align="center">
@@ -132,7 +131,7 @@ See... [Project Log](PROJECT_LOG.md)
 <!-- ROADMAP -->
 ## Delvelopment Micro-Sprints (1.5 hours)
 
-- [x] [Sprint-01] Create this README.md
+- [x] [Sprint-01] Create GitHub repository and this README.md
 - [ ] [Sprint-02] Research Azure Vision Service
 - [ ] [Sprint-03] 
 
