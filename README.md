@@ -61,10 +61,11 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
+<div align="center">
   <a href="https://github.com/Astrotope/mr-level-05-fsd-mission-01-ai">
     <img src="assets/images/logo-sml.png" alt="Logo" width="200" height="200">
   </a>
+</div>
 
 
 ### The goal of this project is to prototype a solution that allows...
