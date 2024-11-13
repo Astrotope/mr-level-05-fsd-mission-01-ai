@@ -62,9 +62,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-[product-screenshot]: assets/images/logo-sml.png 
+  <a href="https://github.com/Astrotope/mr-level-05-fsd-mission-01-ai">
+    <img src="assets/images/logo-sml.png" alt="Logo" width="200" height="200">
+  </a>
 
 
 ### The goal of this project is to prototype a solution that allows...
