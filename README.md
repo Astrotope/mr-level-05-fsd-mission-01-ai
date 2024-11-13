@@ -10,7 +10,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Astrotope/mr-level-05-fsd-mission-01-ai">
-    <img src="assets/images/logo.png" alt="Logo" width="200" height="200" style="border: 1px solid black; border-radius: 10px; padding: 0px;">
+    <img src="assets/images/logo-sml.png" alt="Logo" width="200" height="200">
   </a>
 
   <h3 align="center">Mission Ready - Level 05 - Mission 01 - Research</h3>
@@ -64,7 +64,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-[product-screenshot]: assets/images/logo.png 
+[product-screenshot]: assets/images/logo-sml.png 
 
 
 ### The goal of this project is to prototype a solution that allows...
