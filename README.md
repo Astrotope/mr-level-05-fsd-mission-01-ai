@@ -4,7 +4,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][LICENSE.txt]
+[![MIT License][license-shield]](LICENSE.txt)
 
 <br />
 <div align="center">
