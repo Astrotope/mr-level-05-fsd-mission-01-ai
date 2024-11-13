@@ -140,6 +140,10 @@ See the [open issues](https://github.com/Astrotope/mr-level-05-fsd-mission-01-ai
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Research
+
+- [x] Read [Computer Vision service on Azure](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/)
+- [x] Read [Custom Vision service on Azure](https://learn.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/)
 
 
 <!-- CONTRIBUTING -->
