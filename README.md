@@ -170,7 +170,7 @@ Don't forget to give the project a star! Thanks again!
 ### Top contributors:
 
 <a href="https://github.com/Astrotope/mr-level-05-fsd-mission-01-ai/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=othneildrew/Best-README-Template" alt="contrib.rocks image" />
+  <img src="https://contrib.rocks/image?repo=Astrotope/mr-level-05-fsd-mission-01-ai" alt="contrib.rocks image" />
 </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
