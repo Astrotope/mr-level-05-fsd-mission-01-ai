@@ -92,6 +92,7 @@
 
 This project was built using these framewords/libraries/services ...
 
+* [![GitHub][GitHub]][GitHub-url]
 * [![Azure App Services][Azure-App-Services]][Azure-App-Services-url]
 * [![Azure AI Vision][Azure-AI-Vision]][Azure-AI-Vision-url]
 * [![Express][Express.js]][Express-url]
@@ -99,6 +100,8 @@ This project was built using these framewords/libraries/services ...
 * [![React Router][React-Router]][React-Router-url]
 * [![Sweet Alert 2][Sweet-Alert2]][Sweet-Alert2-url]
 
+[GitHub]: https://img.shields.io/badge/GitHub-DD0031?style=for-the-badge&logo=github&logoColor=61DAF
+[GitHub-url]: https://github.com/
 [Azure-AI-Vision]: https://img.shields.io/badge/Azure_AI_Vision-FF2D20?style=for-the-badge&logoColor=white&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFB0lEQVRIiY2UW2wUVRjHf2due6PdLmzbLW1ZLaIgdwMRC0KkIFGRQJBieAATn3jAaOIlJgYBNUYMiSFiiMZ4wSdCEGMQAUEEQ63hoqHUIrctNHWp2267y+52Z3bm+NDtdgsF/CeTmfPN//y/y/nOJ3Z02/JwVukGtMFHFyi7Q6wCvuPemAO0NEZpsSSjADVvFxN16RXvxBwLWD/fIy7ogusCegMqiYcMnP8hfhuaMqgSjKNpKVstcU5sjjnZjWOE6w58BRh9tSs76WBL3/SuRG6az6XGpta6W5+c4j8NXAX67+RsTZSEdpdg5m3Z17lsU3O8AagD3IDI/7OhI/pc2HPy7Wer9k+u9hwDoiNoOFo+ymE40ZZcuXRXx4tJx6kHRmlCkBcfdCCBcXvaM7V7Pr5Sv+nRwPcbl4/9Bjh1i5StqUKIYsuJtuTKBV9d26AJUR9QVV1VoNylU+FzU+rWZb9li3jGFJGbGQWgN+fUbWqOr+3L2qXbVtduB/4Y1NIEtpBSLgEO5m1PKG+ef6NEURr8uqKVe1zU+L34PcaINYzEkkSSafodScyyYx8tDH760uLKrUBfnrJBAY7kF4EXPo88D8yvcGtazSgPk0NlBfFEoo9r1yPc6Boq9X3BEqZV+PHrKgFVDb58NLaMgbYdxC4NyOUXc76+lFoSMjSPoSjUBUsKws0tZ4imksOiXzBpOuNqwoz2uanKWEA/8bQ9ccu+zqUbl48drEimcMDbDtxYBNQEDI2qEg9K/miaW86wfc0UOrav5qlwWcHBL3/9WcimotSDV9MI6qq2pzWxqCiObMHBuc7M3KCuqm5NpSxflmsd7YR9sGrBBKpHu1hRf/+wLE6cPwOA19Dw6Sp+XaUladcWcwr3oDORG+/XVVyqgtcYMN/4N0pbLMlbXzQxvS5IKmMR9um0p6yB/HM5TMvE0A1KXDpZ24G0OaztCwsVqQFoRV1r59/vHblI42dNVJeXEPK5uRNc6m1XasjB+HLXBctxUFWFbG5Aemywchi58bMmmruGDtujaRj6QDltKQcygJsjOpgd9h7uzNqWoSpYOUcC1NSEKXXfOeLHHn4EANN2UIUgYVosqnBdHNHBuseDP+ekvBrPmJi2jSMlihAsmDqbkK/kNvG5D06hujI04MCypa4K2Z6xsiumlR4v5hUPu1OvzCg9sOt8amxVqcfXb9nSa2iirCzA4von6O2N09MXx+X2UlVRWWhj03awpeR6X0Z4hDi/vqHi0K0Z1OW/E9tW1+6OWfbRjr60CZDN2dKREoCysgB14TqqK0PF4tK0bNlv2eJcIt355fLQtwwfeDOUd7vl6V/TDA6bk5FXH9h5tjd15GrPzSwgLduRpu1IR8phTzZnSymljGdMfov2/vPh/ODeFbMDe4FCF6y9wQnNAWmCBzABxo1xHXDen2w3bG3r//FKpmFywOcPlXhymksTDIxpBXC6U9lce1+Ky2nz7y+erty37vHgbqC1uDw5iaLlN3kYmoAAh468PrHnk5+6Wnf+3rN4XyQ5KWRovnK3oaZzOedy2uwHLr8203/8g8YJPwBNt+wfREpsjjmxeR4xa6GXyAgEAXiB8P6zvZPiaXuMzyW6V8wa3QZEgHQ+wBGxJsolTQF5MiPdC71iJI4EUkDrMzPLWkci3AOK2NFt24ezSk9RJEIXOLtDTAcM4NpdBFRgHGA0RjlmDeXiBvSJunT9B65iESKwcVT9AAAAAElFTkSuQmCC
 [Azure-AI-Vision-url]: https://azure.microsoft.com/en-us/products/app-service
 [Azure-App-Services]: https://img.shields.io/badge/Azure_App_Sevices-0769AD.svg?style=for-the-badge&logoColor=white&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFbUlEQVRIiY2VTWxcVxXHf+feN2/ezHhixx7HHge7NondhjZuSNo6kIi6UtUSKiEWiNIKVAlaIbFgA0gVQiLs+BASLIBNF2yKgCJoI1rR8pGqalRCQ5ImboLTfOI09tj1x9iejzfz7j0sJnGaOqGcxVvcd+//d8957/yPqCr/T1RjLxffi33cVFIWRopRexiY5Q87J/8LcPzCqp6YWuVnh5a5WHEECMnaW+XhgYgndnfy0PZ2I8JNhW4KOD8XP/uDl0qPO+d4/J42njta4c+XYowI3rf2eFUaQNN59vak+ckX+t7b2hN1f1Ar+ODCL/82q989uEDGCGEgPDDs+NxojgtLMF3xYBUHbMoYdhTT9OQDunKG45dqhVI50T0jbXLLDJ45WNJv/XWBbMqQEyFlDQMbAr59fxvluvKLN6rs3ByxvS9Nd96iCqqKqlJteFZjx+hAhl2DOVkHODS5rMcurfCjQ6tE1hBZQ2AtKSPs6Q95YiyDDSzTqwY81JrKubmYiek6J6YblBsJdedJW3jtG0PfL3aE+wEMQNz08urpMvm0oSeypKwhsIa0FbqzAWNbcqgEtEdQbFP+cb7Gz18v84eJKqdmExytbNPGsOLghy/Nfu+Gb/D80SV/uewY6Eyx+yMRhXyICJyedTy2K08+sizUYXalSXvaMbjR8MaUJR0IIoKIA1oli1R59t+rfGWqqqP9WQkAfvuvJSp1z9fH2/j8WEQYtEq4VHVMl5W5Zc9rZ+pMzDo+PWy5s2j48o6Q359ssBwreEMgHmuElAhWhN8cXmS0P9sq0aErMV+6r4PhYmZNHKAja9ncYTg10+TMvBKlLK9egGPvwmDB8ORYmt68ZbiQYnd/mnv7IrZ2BITAc6dWWyV6p1QvJcD9IxkVTSS52kmqioiQCZSPdgn/nBIUQUQ5PKUsVpXxrYavjkWAcN9QCoADx6s8/coCc7GjVG7uDxpN3WSMENmm1GrNdU0HUMi2YK3cWs/Tc7BYdezbBh/fLNTrDoBPbRH36LbIPnOyysJq8p2g6RTvYXa+QlferBNXVebLAaqpG9eBi2WlvBJTrepaxqpq84EDFGuEIJs2i8DGg2fqPPIxWQdoJPCXcxtadxfB6zWwR1U5XfLcVait7fceetvbGC960oF5OxgshF1O1f/4zYSRgtCba2KlpRI7y4rLUXdCnHgCY1DAeSXxDuc8x2cskQh3dMYkCpPzaTZsEB7ZlqG/EO4MwsDoZ4cynF1ISKJNXHGONydnyYQBg8UOrBEeHBYmpj0nS47R3hSBhfas4cW361QSOHA+4ndnQuqJp5YkqC7z2F05jKABwBfv2ciLJ5dRhQvzjhfOh4SBYWQhZs9QSFeb4c5e4cHbU9zd3/LHxEFkPL86UqHhPA3naXpHQz0rTc+uwRxw1So+s6Nddg5kUFWOXK7T9ErilLMLTX79Vo2JdxOcV3pyDWq1GrVajWajxgNbW8KJUxre01Cl7mEwZ9m3o8PC++x6z3AunpyJ04enqjRVcCgOQ0Ph5XM1jk1b7u5WKv66+6rCk/dGlKuexZpjvuJInOdr45sIrfgbAHf0ZaLJmbrOxJ6cFbyAKFijOGO4vJJwttRkS5dfA5RWLekgojtvKOSELV2WznzIrqGb2PW12P/HK/rTI2UypuWmgRUCBCPCeDFhrNigJ++YrRheOBux1LAEBpzzPPXJTh79RNetB861OHB0Sb/5pxJLiWJFCAEjgjHX/3WvileoeeXhgTRP7+thtD+7rpFuOfSX6y58+a1y/PyJMn//T0zNt2Bcne23ZQ3be9I8tbeLvbfn13fo+wDXT90iGk7NO9N110iUKCX12wrpvqsO8KHxX8prldq76f1xAAAAAElFTkSuQmCC
@@ -123,21 +126,7 @@ This project is a concept demo and is for informational and educational purposes
 <!-- GETTING STARTED -->
 ## Project Log
 
-* Created README.md, project logo (ChatGPT/Photoshop)
-* Created GitHub repository - Mission Ready, Level 5, Mission 01, AI 
-  * [mr-level-05-fsd-mission-01-ai](https://github.com/Astrotope/mr-level-05-fsd-mission-01-ai/)
-
-  ```
-  cd ~/mission-ready
-  mkdir -p /level-05/mission-01/research && cd /level-05/mission-01/research
-  nano README.md
-  git init
-  git add .
-  git commit -m "repo - mr-level-05-fsd-mission-01-ai - first commit"
-  git branch -M main
-  git remote add origin https://[ghp_access_token]@github.com/Astrotope/mr-level-05-fsd-mission-01-ai.git
-  git push -u origin HEAD
-  ```
+See... [Project Log](PROJECT_LOG.md)
 
 
 <!-- ROADMAP -->
