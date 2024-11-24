@@ -104,17 +104,23 @@
 
 ### Project Launch Meeting Questions
 
-- **What are the primary objectives and goals for this specific project?** Understanding the overarching and specific goals, that will define the technical requirements for the computer vision system. This will ensure the project stays focused on providing value, and clarify the expected outcomes, such as accuracy levels (of computer vision predictions) and user experience (response time).
+- **What are the primary objectives and goals for this specific project?** 
+  - Understanding the overarching and specific goals, that will define the technical requirements for the computer vision system. This will ensure the project stays focused on providing value, and clarify the expected outcomes, such as accuracy levels (of computer vision predictions) and user experience (response time).
 
-- **What are the main timelines, dates, and milestones?** Knowing that schedule is crucial for the planning the development, testing, and deployment phases of the computer vision model. It will also allow for prioritization of tasks, such as data collection, model training, and integration with existing systems, to meet deadlines.
+- **What are the main timelines, dates, and milestones?** 
+  - Knowing that schedule is crucial for the planning the development, testing, and deployment phases of the computer vision model. It will also allow for prioritization of tasks, such as data collection, model training, and integration with existing systems, to meet deadlines.
 
-- **What are the most critical obstacles or constraints, and what happens if the project isn’t successful?** Identifying potential hurdles, like limited data for training the model or regulatory challenges (privacy, legal requirements for accuracy of quotations), can help to proactively develop risk mitigation strategies. Understanding the consequences of failure will also inform the level of risk acceptable and shape contingency planning.
+- **What are the most critical obstacles or constraints, and what happens if the project isn’t successful?** 
+  - Identifying potential hurdles, like limited data for training the model or regulatory challenges (privacy, legal requirements for accuracy of quotations), can help to proactively develop risk mitigation strategies. Understanding the consequences of failure will also inform the level of risk acceptable and shape contingency planning.
 
-- **What are the best assets to leverage for this project?** Identify useful resources, such as existing image datasets, pre-trained models, or expertise within the project team that could accelerate development and improve the system's performance.
+- **What are the best assets to leverage for this project?** 
+  - Identify useful resources, such as existing image datasets, pre-trained models, or expertise within the project team that could accelerate development and improve the system's performance.
 
-- **What technologies and tools can the team use to complete this project?** Knowing the available tools, such as frameworks for computer vision (e.g., Azure Custom Vision, TensorFlow, Keras) and cloud platforms for processing, ensures the team is equipped to deliver an efficient and scalable solution. It also aligns development efforts with the organization’s tech stack.
+- **What technologies and tools can the team use to complete this project?** 
+  - Knowing the available tools, such as frameworks for computer vision (e.g., Azure Custom Vision, TensorFlow, Keras) and cloud platforms for processing, ensures the team is equipped to deliver an efficient and scalable solution. It also aligns development efforts with the organization’s tech stack.
 
-- **Is there anything else?** Use the Johari window to identify project aspects that haven’t been uncovered, and establish processes for communicating new information that may be discovered as the project proceeds.
+- **Is there anything else?** 
+  - Use the Johari window to identify project aspects that haven’t been uncovered, and establish processes for communicating new information that may be discovered as the project proceeds.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
