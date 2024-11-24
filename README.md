@@ -220,18 +220,34 @@ This project was built using these framewords/libraries/services ...
 
 This project is a concept demo and is for informational and educational purposes only. It references and uses the trade name of [Turners Car Auctions] as a conceptual basis. However, this project is not affiliated with, endorsed by, or officially connected to [Turners Car Auctions] in any way. All trademarks, service marks, trade names, and logos used in this demo are the property of their respective owners. The inclusion of the business name and any associated references are solely for illustrative purposes and do not imply any official association or representation of [Turners Car Auctions].
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 ## Project Log
 
 See... [Project Log](PROJECT_LOG.md)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- ROADMAP -->
-## Delvelopment Micro-Sprints (1.5 hours)
+## Delvelopment Roadmap
 
-- [x] [Sprint-01] Create GitHub repository and this README.md
-- [ ] [Sprint-02] Research Azure Vision Service
-- [ ] [Sprint-03] 
+- [x] [Sprint-01] Assemble Training/Validation Images Dataset
+- [ ] [Sprint-02] Create Training Code - Azure Custom Vision - Colab
+- [ ] [Sprint-03] Train Custom Vision Models
+- [ ] [Sprint-04] Deploy to Prediction Endpoint
+- [ ] [Sprint-05] Create Training Code - TensorFlow/Keras EfficientNet - Colab
+- [ ] [Sprint-06] Train EfficientNet Model
+- [ ] [Sprint-07] Create Model Wrapper Prediction API using FastAPI
+- [ ] [Sprint-08] Containerise API using Docker
+- [ ] [Sprint-09] Deploy Container to Azure Container Registry
+- [ ] [Sprint-10] Create and Azure ML Endpoint in an Azure ML Workspace
+- [ ] [Sprint-11] Give the ML Enpoint Pull Permission to Azure Container Registry
+- [ ] [Sprint-12] Setup ML Endpoint Environment to include Containerised Prediction API
+- [ ] [Sprint-13] Deploy the ML Endpoint to Production
+- [ ] [Sprint-14] Create an Express.js/Node.js backend to wrap the Prediction API's
+- [ ] [Sprint-15] Create a POC React web UI (Semantic UI, Tailwind CSS) to implement the new insurance quotation system, and interface with the Prediction API's on the backend.
 
 
 See the [open issues](https://github.com/Astrotope/mr-level-05-fsd-mission-01-ai/issues) for a full list of proposed features (and known issues).
