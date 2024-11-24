@@ -72,33 +72,43 @@
 
 - **Product Owners/Business Leaders** (Turners Cars - Insurance Division Management):
 
-  - **Interest**: They want the project to deliver business value by streamlining customer acquisition and improving conversion rates.
+  - **Interest**: 
+    - They want the project to deliver business value by streamlining customer acquisition and improving conversion rates.
 
-  - **Engagement**: Provide regular updates on progress and demo key features. Engage them early to align technical goals with business objectives and ensure you're building a solution that meets their expectations.
+  - **Engagement**: 
+    - Provide regular updates on progress and demo key features. Engage them early to align technical goals with business objectives and ensure you're building a solution that meets their expectations.
 
 - **Technical Team Members/Developers** (Turners Website Production Team, and POC Developers):
 
-  - **Interest**: Ensure the system is robust, scalable, and easy to integrate with other services. Technical Team Members/Developers will be directly involved in implementing, testing, and troubleshooting the system.
+  - **Interest**: 
+    - Ensure the system is robust, scalable, and easy to integrate with other services. Technical Team Members/Developers will be directly involved in implementing, testing, and troubleshooting the system.
 
-  - **Engagement**: Collaborate closely on design decisions, address technical challenges together, and maintain open communication channels for efficient problem-solving.
+  - **Engagement**: 
+    - Collaborate closely on design decisions, address technical challenges together, and maintain open communication channels for efficient problem-solving.
 
 - **Data Scientists/AI Specialists** (Machine Learning Specialists that will train the ML Models):
 
-  - **Interest**: Data Scientists/AI Specialists will focus on model performance, training data quality, and optimizing the computer vision algorithm to meet accuracy and speed requirements.
+  - **Interest**: 
+    - Data Scientists/AI Specialists will focus on model performance, training data quality, and optimizing the computer vision algorithm to meet accuracy and speed requirements.
 
-  - **Engagement**: Regularly review and iterate on the data models and algorithms. Schedule knowledge-sharing sessions to leverage their expertise and gain feedback on model performance metrics.
+  - **Engagement**: 
+    - Regularly review and iterate on the data models and algorithms. Schedule knowledge-sharing sessions to leverage their expertise and gain feedback on model performance metrics.
 
 - **Legal/Compliance Teams** (Regulatory Compliance Team, Legal):
 
-  - **Interest**: Legal/Compliance Teams are concerned with data privacy, adherence to regulations, and ethical use of AI, especially if sensitive data is involved.
+  - **Interest**: 
+    - Legal/Compliance Teams are concerned with data privacy, adherence to regulations, and ethical use of AI, especially if sensitive data is involved.
 
-  - **Engagement**: Consult them during the design phase to ensure compliance requirements are embedded in the system. Schedule review checkpoints to stay aligned with legal standards and preempt any regulatory hurdles.
+  - **Engagement**: 
+    - Consult them during the design phase to ensure compliance requirements are embedded in the system. Schedule review checkpoints to stay aligned with legal standards and preempt any regulatory hurdles.
 
 - **Customer Service, Marketing and Sales Teams** (At corporate, and at branch level)
 
-  - **Interest**: Customer Service, Marketing and Sales Teams are interested in how the solution will impact their workflows and enhance the customer experience. These teams may also provide valuable insights into common customer concerns and expectations.
+  - **Interest**: 
+    - Customer Service, Marketing and Sales Teams are interested in how the solution will impact their workflows and enhance the customer experience. These teams may also provide valuable insights into common customer concerns and expectations.
 
-  - **Engagement**: Host feedback sessions to gather insights on how the automated system will integrate into their processes. Share user stories and test cases to ensure the system meets practical use cases and improves the overall customer journey.
+  - **Engagement**: 
+     - Host feedback sessions to gather insights on how the automated system will integrate into their processes. Share user stories and test cases to ensure the system meets practical use cases and improves the overall customer journey.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
