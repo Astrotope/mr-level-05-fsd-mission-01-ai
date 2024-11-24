@@ -66,26 +66,90 @@
   </a>
 </div>
 
+### Key Stakeholders
 
-### The goal of this project is to prototype a solution that allows...
+#### The key stakeholders and their interests include:
 
-* A custom to upload the picture of a car 
-* Identify the type of vehicle [and potentially make and model]
-* Based on this information, calculate the appropriate insurance premium for the customer. 
+- **Product Owners/Business Leaders** (Turners Cars - Insurance Division Management):
 
-### Propoesd implementation
+  - **Interest**: They want the project to deliver business value by streamlining customer acquisition and improving conversion rates.
 
-* A cloud-based application that can recognise motor vehicles types (e.g. sedan vs SUV vs truck, or potentially recognise a few brands and/or models) using a cloud-based AI service on
-  *  Microsoft Azure or,
-  *  Amazon Web Services or,
-  *  Google Cloud
+  - **Engagement**: Provide regular updates on progress and demo key features. Engage them early to align technical goals with business objectives and ensure you're building a solution that meets their expectations.
 
-  
-* The solution does not need the business logic to calculate the insurance premium, as this will be handled by another team.
+- **Technical Team Members/Developers** (Turners Website Production Team, and POC Developers):
 
-  You can use code from tutorials you find online, but make sure you read through the code so that you understand the code. 
+  - **Interest**: Ensure the system is robust, scalable, and easy to integrate with other services. Technical Team Members/Developers will be directly involved in implementing, testing, and troubleshooting the system.
+
+  - **Engagement**: Collaborate closely on design decisions, address technical challenges together, and maintain open communication channels for efficient problem-solving.
+
+- **Data Scientists/AI Specialists** (Machine Learning Specialists that will train the ML Models):
+
+  - **Interest**: Data Scientists/AI Specialists will focus on model performance, training data quality, and optimizing the computer vision algorithm to meet accuracy and speed requirements.
+
+  - **Engagement**: Regularly review and iterate on the data models and algorithms. Schedule knowledge-sharing sessions to leverage their expertise and gain feedback on model performance metrics.
+
+- **Legal/Compliance Teams** (Regulatory Compliance Team, Legal):
+
+  - **Interest**: Legal/Compliance Teams are concerned with data privacy, adherence to regulations, and ethical use of AI, especially if sensitive data is involved.
+
+  - **Engagement**: Consult them during the design phase to ensure compliance requirements are embedded in the system. Schedule review checkpoints to stay aligned with legal standards and preempt any regulatory hurdles.
+
+- **Customer Service, Marketing and Sales Teams** (At corporate, and at branch level)
+
+  - **Interest**: Customer Service, Marketing and Sales Teams are interested in how the solution will impact their workflows and enhance the customer experience. These teams may also provide valuable insights into common customer concerns and expectations.
+
+  - **Engagement**: Host feedback sessions to gather insights on how the automated system will integrate into their processes. Share user stories and test cases to ensure the system meets practical use cases and improves the overall customer journey.
+
+### Project Launch Meeting Questions
+
+- **What are the primary objectives and goals for this specific project?** Understanding the overarching and specific goals, that will define the technical requirements for the computer vision system. This will ensure the project stays focused on providing value, and clarify the expected outcomes, such as accuracy levels (of computer vision predictions) and user experience (response time).
+
+- **What are the main timelines, dates, and milestones?** Knowing that schedule is crucial for the planning the development, testing, and deployment phases of the computer vision model. It will also allow for prioritization of tasks, such as data collection, model training, and integration with existing systems, to meet deadlines.
+
+- **What are the most critical obstacles or constraints, and what happens if the project isn’t successful?** Identifying potential hurdles, like limited data for training the model or regulatory challenges (privacy, legal requirements for accuracy of quotations), can help to proactively develop risk mitigation strategies. Understanding the consequences of failure will also inform the level of risk acceptable and shape contingency planning.
+
+- **What are the best assets to leverage for this project?** Identify useful resources, such as existing image datasets, pre-trained models, or expertise within the project team that could accelerate development and improve the system's performance.
+
+- **What technologies and tools can the team use to complete this project?** Knowing the available tools, such as frameworks for computer vision (e.g., Azure Custom Vision, TensorFlow, Keras) and cloud platforms for processing, ensures the team is equipped to deliver an efficient and scalable solution. It also aligns development efforts with the organization’s tech stack.
+
+- **Is there anything else?** Use the Johari window to identify project aspects that haven’t been uncovered, and establish processes for communicating new information that may be discovered as the project proceeds.
+
+### Project Specfication
+
+- Upgrade Insurance Quotation System for Turner Car Auctions, Insurance Division
+- The upgrade will include
+
+  - The ability for a customer to upload an image of their vehicle
+  - A machine learning model trained to identify a vehicle's class from an image.
+  - An web API endpoint to wrap the machine learning model. 
+  - A backend serve the API endpoint/s, to a frontend while securing API access details.
+  - A web frontend, that will 
+    - allow a customer to upload an image of their vehicle.
+    - identify the class of their vehicle.
+    - provide an insurance quote based on the class of their vehicle, to the user either through the web interface, or via email.
+
+### Implementation Specification
+
+- The solution provide be a cloud-based, web-accessible, machine learning model prediction API endpoint that can accept images, and return vehicle class predictions.
+- The service should use a cloud service provider like...
+  - Microsoft Azure or,
+  - Amazon Web Services or,
+  - Google Cloud
+- The solution does not need the business logic to calculate the insurance premium, as this will be handled by another team.
+- Third party code from online sources can be used for the P.O.C., as long as the developer understands how it works. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Proof of Concept Solution
+
+- ML web API Endpoints, and ML Models
+  - Models [GitHub Repo](https://github.com/Astrotope/mr-level-05-fsd-mission-01-models)
+    - Solution 01: Azure Custom Vision Service. Models General [A1] & General (compact) [S1]. Served on a Custom Vision Prediction Endpoint.
+    - Solution 02: Azure ML Endpoint, using Keras Model (EfficientNet B1) wrapped with FastAPI in a Docker container.
+- ML Model Training/Validation Datasets
+  - Datasets [GitHub Repo](https://github.com/Astrotope/mr-level-05-fsd-mission-01-datasets)
+- Backend/Frontend [Express.js Node.js]/[React, Semantic UI, Tailwind CSS]
+  - Backend/Frontend [GitHub Repo](https://github.com/Astrotope/mr-level-05-fsd-mission-01-backend-frontend)
 
 ### Built With
 
@@ -93,15 +157,25 @@ This project was built using these framewords/libraries/services ...
 
 * [![GitHub][GitHub]][GitHub-url]
 * [![Azure App Services][Azure-App-Services]][Azure-App-Services-url]
-* [![Azure AI Vision][Azure-AI-Vision]][Azure-AI-Vision-url]
+* [![Azure Custom Vision][Azure-Custom-Vision]][Azure-AI-Vision-url]
 * [![Express][Express.js]][Express-url]
 * [![React][React.js]][React-url]
-* [![React Router][React-Router]][React-Router-url]
-* [![Sweet Alert 2][Sweet-Alert2]][Sweet-Alert2-url]
+* [![Semantic UI][Semantic-UI]][Semantic-UI-url]
+* [![Tailwind CSS][Tailwind-CSS]][Tailwind-CSS-url]
+* [![TensorFlow][TensorFlow]][TensorFlow-url]
+* [![Keras][Keras]][Keras-url]
 
+[Tailwind-CSS]: https://img.shields.io/badge/Tailwind_CSS-E50E31?style=for-the-badge&logo=tailwind-css&logoColor=61DAF
+[Tailwind-CSS-url]: https://tailwindcss.com/
+[Keras]: https://img.shields.io/badge/Keras-D23585?style=for-the-badge&logo=keras&logoColor=61DAF
+[Keras-url]: https://keras.io/
+[TensorFlow]: https://img.shields.io/badge/TensorFlow-2D3CB0?style=for-the-badge&logo=tensorflow&logoColor=61DAF
+[TensorFlow-url]: https://www.tensorflow.org/
+[Semantic-UI]: https://img.shields.io/badge/Semantic_UI-852DB0?style=for-the-badge&logo=semantic-ui&logoColor=61DAF
+[Semantic-UI-url]: https://semantic-ui.com/
 [GitHub]: https://img.shields.io/badge/GitHub-DD0031?style=for-the-badge&logo=github&logoColor=61DAF
 [GitHub-url]: https://github.com/
-[Azure-AI-Vision]: https://img.shields.io/badge/Azure_AI_Vision-FF2D20?style=for-the-badge&logoColor=white&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFB0lEQVRIiY2UW2wUVRjHf2due6PdLmzbLW1ZLaIgdwMRC0KkIFGRQJBieAATn3jAaOIlJgYBNUYMiSFiiMZ4wSdCEGMQAUEEQ63hoqHUIrctNHWp2267y+52Z3bm+NDtdgsF/CeTmfPN//y/y/nOJ3Z02/JwVukGtMFHFyi7Q6wCvuPemAO0NEZpsSSjADVvFxN16RXvxBwLWD/fIy7ogusCegMqiYcMnP8hfhuaMqgSjKNpKVstcU5sjjnZjWOE6w58BRh9tSs76WBL3/SuRG6az6XGpta6W5+c4j8NXAX67+RsTZSEdpdg5m3Z17lsU3O8AagD3IDI/7OhI/pc2HPy7Wer9k+u9hwDoiNoOFo+ymE40ZZcuXRXx4tJx6kHRmlCkBcfdCCBcXvaM7V7Pr5Sv+nRwPcbl4/9Bjh1i5StqUKIYsuJtuTKBV9d26AJUR9QVV1VoNylU+FzU+rWZb9li3jGFJGbGQWgN+fUbWqOr+3L2qXbVtduB/4Y1NIEtpBSLgEO5m1PKG+ef6NEURr8uqKVe1zU+L34PcaINYzEkkSSafodScyyYx8tDH760uLKrUBfnrJBAY7kF4EXPo88D8yvcGtazSgPk0NlBfFEoo9r1yPc6Boq9X3BEqZV+PHrKgFVDb58NLaMgbYdxC4NyOUXc76+lFoSMjSPoSjUBUsKws0tZ4imksOiXzBpOuNqwoz2uanKWEA/8bQ9ccu+zqUbl48drEimcMDbDtxYBNQEDI2qEg9K/miaW86wfc0UOrav5qlwWcHBL3/9WcimotSDV9MI6qq2pzWxqCiObMHBuc7M3KCuqm5NpSxflmsd7YR9sGrBBKpHu1hRf/+wLE6cPwOA19Dw6Sp+XaUladcWcwr3oDORG+/XVVyqgtcYMN/4N0pbLMlbXzQxvS5IKmMR9um0p6yB/HM5TMvE0A1KXDpZ24G0OaztCwsVqQFoRV1r59/vHblI42dNVJeXEPK5uRNc6m1XasjB+HLXBctxUFWFbG5Aemywchi58bMmmruGDtujaRj6QDltKQcygJsjOpgd9h7uzNqWoSpYOUcC1NSEKXXfOeLHHn4EANN2UIUgYVosqnBdHNHBuseDP+ekvBrPmJi2jSMlihAsmDqbkK/kNvG5D06hujI04MCypa4K2Z6xsiumlR4v5hUPu1OvzCg9sOt8amxVqcfXb9nSa2iirCzA4von6O2N09MXx+X2UlVRWWhj03awpeR6X0Z4hDi/vqHi0K0Z1OW/E9tW1+6OWfbRjr60CZDN2dKREoCysgB14TqqK0PF4tK0bNlv2eJcIt355fLQtwwfeDOUd7vl6V/TDA6bk5FXH9h5tjd15GrPzSwgLduRpu1IR8phTzZnSymljGdMfov2/vPh/ODeFbMDe4FCF6y9wQnNAWmCBzABxo1xHXDen2w3bG3r//FKpmFywOcPlXhymksTDIxpBXC6U9lce1+Ky2nz7y+erty37vHgbqC1uDw5iaLlN3kYmoAAh468PrHnk5+6Wnf+3rN4XyQ5KWRovnK3oaZzOedy2uwHLr8203/8g8YJPwBNt+wfREpsjjmxeR4xa6GXyAgEAXiB8P6zvZPiaXuMzyW6V8wa3QZEgHQ+wBGxJsolTQF5MiPdC71iJI4EUkDrMzPLWkci3AOK2NFt24ezSk9RJEIXOLtDTAcM4NpdBFRgHGA0RjlmDeXiBvSJunT9B65iESKwcVT9AAAAAElFTkSuQmCC
+[Azure-Custom-Vision]: https://img.shields.io/badge/Azure_Custom_Vision-FF2D20?style=for-the-badge&logoColor=white&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFB0lEQVRIiY2UW2wUVRjHf2due6PdLmzbLW1ZLaIgdwMRC0KkIFGRQJBieAATn3jAaOIlJgYBNUYMiSFiiMZ4wSdCEGMQAUEEQ63hoqHUIrctNHWp2267y+52Z3bm+NDtdgsF/CeTmfPN//y/y/nOJ3Z02/JwVukGtMFHFyi7Q6wCvuPemAO0NEZpsSSjADVvFxN16RXvxBwLWD/fIy7ogusCegMqiYcMnP8hfhuaMqgSjKNpKVstcU5sjjnZjWOE6w58BRh9tSs76WBL3/SuRG6az6XGpta6W5+c4j8NXAX67+RsTZSEdpdg5m3Z17lsU3O8AagD3IDI/7OhI/pc2HPy7Wer9k+u9hwDoiNoOFo+ymE40ZZcuXRXx4tJx6kHRmlCkBcfdCCBcXvaM7V7Pr5Sv+nRwPcbl4/9Bjh1i5StqUKIYsuJtuTKBV9d26AJUR9QVV1VoNylU+FzU+rWZb9li3jGFJGbGQWgN+fUbWqOr+3L2qXbVtduB/4Y1NIEtpBSLgEO5m1PKG+ef6NEURr8uqKVe1zU+L34PcaINYzEkkSSafodScyyYx8tDH760uLKrUBfnrJBAY7kF4EXPo88D8yvcGtazSgPk0NlBfFEoo9r1yPc6Boq9X3BEqZV+PHrKgFVDb58NLaMgbYdxC4NyOUXc76+lFoSMjSPoSjUBUsKws0tZ4imksOiXzBpOuNqwoz2uanKWEA/8bQ9ccu+zqUbl48drEimcMDbDtxYBNQEDI2qEg9K/miaW86wfc0UOrav5qlwWcHBL3/9WcimotSDV9MI6qq2pzWxqCiObMHBuc7M3KCuqm5NpSxflmsd7YR9sGrBBKpHu1hRf/+wLE6cPwOA19Dw6Sp+XaUladcWcwr3oDORG+/XVVyqgtcYMN/4N0pbLMlbXzQxvS5IKmMR9um0p6yB/HM5TMvE0A1KXDpZ24G0OaztCwsVqQFoRV1r59/vHblI42dNVJeXEPK5uRNc6m1XasjB+HLXBctxUFWFbG5Aemywchi58bMmmruGDtujaRj6QDltKQcygJsjOpgd9h7uzNqWoSpYOUcC1NSEKXXfOeLHHn4EANN2UIUgYVosqnBdHNHBuseDP+ekvBrPmJi2jSMlihAsmDqbkK/kNvG5D06hujI04MCypa4K2Z6xsiumlR4v5hUPu1OvzCg9sOt8amxVqcfXb9nSa2iirCzA4von6O2N09MXx+X2UlVRWWhj03awpeR6X0Z4hDi/vqHi0K0Z1OW/E9tW1+6OWfbRjr60CZDN2dKREoCysgB14TqqK0PF4tK0bNlv2eJcIt355fLQtwwfeDOUd7vl6V/TDA6bk5FXH9h5tjd15GrPzSwgLduRpu1IR8phTzZnSymljGdMfov2/vPh/ODeFbMDe4FCF6y9wQnNAWmCBzABxo1xHXDen2w3bG3r//FKpmFywOcPlXhymksTDIxpBXC6U9lce1+Ky2nz7y+erty37vHgbqC1uDw5iaLlN3kYmoAAh468PrHnk5+6Wnf+3rN4XyQ5KWRovnK3oaZzOedy2uwHLr8203/8g8YJPwBNt+wfREpsjjmxeR4xa6GXyAgEAXiB8P6zvZPiaXuMzyW6V8wa3QZEgHQ+wBGxJsolTQF5MiPdC71iJI4EUkDrMzPLWkci3AOK2NFt24ezSk9RJEIXOLtDTAcM4NpdBFRgHGA0RjlmDeXiBvSJunT9B65iESKwcVT9AAAAAElFTkSuQmCC
 [Azure-AI-Vision-url]: https://azure.microsoft.com/en-us/products/ai-services/ai-vision/
 [Azure-App-Services]: https://img.shields.io/badge/Azure_App_Sevices-0769AD.svg?style=for-the-badge&logoColor=white&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFbUlEQVRIiY2VTWxcVxXHf+feN2/ezHhixx7HHge7NondhjZuSNo6kIi6UtUSKiEWiNIKVAlaIbFgA0gVQiLs+BASLIBNF2yKgCJoI1rR8pGqalRCQ5ImboLTfOI09tj1x9iejzfz7j0sJnGaOqGcxVvcd+//d8957/yPqCr/T1RjLxffi33cVFIWRopRexiY5Q87J/8LcPzCqp6YWuVnh5a5WHEECMnaW+XhgYgndnfy0PZ2I8JNhW4KOD8XP/uDl0qPO+d4/J42njta4c+XYowI3rf2eFUaQNN59vak+ckX+t7b2hN1f1Ar+ODCL/82q989uEDGCGEgPDDs+NxojgtLMF3xYBUHbMoYdhTT9OQDunKG45dqhVI50T0jbXLLDJ45WNJv/XWBbMqQEyFlDQMbAr59fxvluvKLN6rs3ByxvS9Nd96iCqqKqlJteFZjx+hAhl2DOVkHODS5rMcurfCjQ6tE1hBZQ2AtKSPs6Q95YiyDDSzTqwY81JrKubmYiek6J6YblBsJdedJW3jtG0PfL3aE+wEMQNz08urpMvm0oSeypKwhsIa0FbqzAWNbcqgEtEdQbFP+cb7Gz18v84eJKqdmExytbNPGsOLghy/Nfu+Gb/D80SV/uewY6Eyx+yMRhXyICJyedTy2K08+sizUYXalSXvaMbjR8MaUJR0IIoKIA1oli1R59t+rfGWqqqP9WQkAfvuvJSp1z9fH2/j8WEQYtEq4VHVMl5W5Zc9rZ+pMzDo+PWy5s2j48o6Q359ssBwreEMgHmuElAhWhN8cXmS0P9sq0aErMV+6r4PhYmZNHKAja9ncYTg10+TMvBKlLK9egGPvwmDB8ORYmt68ZbiQYnd/mnv7IrZ2BITAc6dWWyV6p1QvJcD9IxkVTSS52kmqioiQCZSPdgn/nBIUQUQ5PKUsVpXxrYavjkWAcN9QCoADx6s8/coCc7GjVG7uDxpN3WSMENmm1GrNdU0HUMi2YK3cWs/Tc7BYdezbBh/fLNTrDoBPbRH36LbIPnOyysJq8p2g6RTvYXa+QlferBNXVebLAaqpG9eBi2WlvBJTrepaxqpq84EDFGuEIJs2i8DGg2fqPPIxWQdoJPCXcxtadxfB6zWwR1U5XfLcVait7fceetvbGC960oF5OxgshF1O1f/4zYSRgtCba2KlpRI7y4rLUXdCnHgCY1DAeSXxDuc8x2cskQh3dMYkCpPzaTZsEB7ZlqG/EO4MwsDoZ4cynF1ISKJNXHGONydnyYQBg8UOrBEeHBYmpj0nS47R3hSBhfas4cW361QSOHA+4ndnQuqJp5YkqC7z2F05jKABwBfv2ciLJ5dRhQvzjhfOh4SBYWQhZs9QSFeb4c5e4cHbU9zd3/LHxEFkPL86UqHhPA3naXpHQz0rTc+uwRxw1So+s6Nddg5kUFWOXK7T9ErilLMLTX79Vo2JdxOcV3pyDWq1GrVajWajxgNbW8KJUxre01Cl7mEwZ9m3o8PC++x6z3AunpyJ04enqjRVcCgOQ0Ph5XM1jk1b7u5WKv66+6rCk/dGlKuexZpjvuJInOdr45sIrfgbAHf0ZaLJmbrOxJ6cFbyAKFijOGO4vJJwttRkS5dfA5RWLekgojtvKOSELV2WznzIrqGb2PW12P/HK/rTI2UypuWmgRUCBCPCeDFhrNigJ++YrRheOBux1LAEBpzzPPXJTh79RNetB861OHB0Sb/5pxJLiWJFCAEjgjHX/3WvileoeeXhgTRP7+thtD+7rpFuOfSX6y58+a1y/PyJMn//T0zNt2Bcne23ZQ3be9I8tbeLvbfn13fo+wDXT90iGk7NO9N110iUKCX12wrpvqsO8KHxX8prldq76f1xAAAAAElFTkSuQmCC
 [Azure-App-Services-url]: https://azure.microsoft.com/en-us/products/app-service/
