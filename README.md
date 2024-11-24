@@ -100,6 +100,8 @@
 
   - **Engagement**: Host feedback sessions to gather insights on how the automated system will integrate into their processes. Share user stories and test cases to ensure the system meets practical use cases and improves the overall customer journey.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Project Launch Meeting Questions
 
 - **What are the primary objectives and goals for this specific project?** Understanding the overarching and specific goals, that will define the technical requirements for the computer vision system. This will ensure the project stays focused on providing value, and clarify the expected outcomes, such as accuracy levels (of computer vision predictions) and user experience (response time).
@@ -114,6 +116,8 @@
 
 - **Is there anything else?** Use the Johari window to identify project aspects that haven’t been uncovered, and establish processes for communicating new information that may be discovered as the project proceeds.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Project Specfication
 
 - Upgrade Insurance Quotation System for Turner Car Auctions, Insurance Division
@@ -127,6 +131,8 @@
     - allow a customer to upload an image of their vehicle.
     - identify the class of their vehicle.
     - provide an insurance quote based on the class of their vehicle, to the user either through the web interface, or via email.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Implementation Specification
 
@@ -150,6 +156,8 @@
   - Datasets [GitHub Repo](https://github.com/Astrotope/mr-level-05-fsd-mission-01-datasets)
 - Backend/Frontend [Express.js Node.js]/[React, Semantic UI, Tailwind CSS]
   - Backend/Frontend [GitHub Repo](https://github.com/Astrotope/mr-level-05-fsd-mission-01-backend-frontend)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
