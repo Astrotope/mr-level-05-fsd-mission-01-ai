@@ -9,7 +9,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Astrotope/mr-level-05-fsd-mission-01-ai">
-    <img src="assets/images/logo-sml.png" alt="Logo" width="200" height="200">
+    <img src="assets/images/logo-sml.png" alt="Logo" width="350" height="350">
   </a>
 
   <h3 align="center">Mission Ready - Level 05 - Mission 01 - Research</h3>
