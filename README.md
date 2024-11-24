@@ -309,14 +309,7 @@ Project Link: [https://github.com/Astrotope/mr-level-05-fsd-mission-01-ai](https
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-* [Base64 PNG Encoder](https://www.base64-image.de/)
-* [Base64 Encoder - Text/SVG](https://www.base64encode.org/)
 * [Choose a License](https://choosealicense.com/)
 * [Azure Icon Set](https://code.benco.io/icon-collection/azure-icons/)
 
